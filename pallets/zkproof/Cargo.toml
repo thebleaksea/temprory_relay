@@ -1,0 +1,64 @@
+[package]
+name = "pallet-zkproof"
+version = "4.0.0-dev"
+description = "FRAME pallet template for defining custom runtime logic."
+authors = ["Substrate DevHub <https://github.com/substrate-developer-hub>"]
+homepage = "https://substrate.io"
+edition = "2021"
+license = "MIT-0"
+publish = false
+repository = "https://github.com/substrate-developer-hub/substrate-node-template/"
+
+[package.metadata.docs.rs]
+targets = ["x86_64-unknown-linux-gnu"]
+
+[dependencies]
+codec = { package = "parity-scale-codec", version = "3.2.2", default-features = false, features = [
+	"derive",
+] }
+scale-info = { version = "2.5.0", default-features = false, features = ["derive"] }
+frame-benchmarking = { version = "4.0.0-dev", default-features = false, optional = true, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.42" }
+frame-support = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.42" }
+frame-system = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.42" }
+sp-std = { version = "5.0.0", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.42" }
+# sp-runtime = { version = "7.0.0", git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.42" }
+
+# bitvec = {version = "1.0.1", default-features = false, features = ["atomic", "alloc"]}
+# micromath = "2.0.0"
+# heapless = "0.7.16"
+# ufmt = "0.2.0"
+# arrayvec = {version = "0.7.3", default-features = false}
+#
+
+# rand_core = {version = "0.6.4", default-features = false}
+# pallet-randomness-collective-flip = {version = "15.0.0", default-features = false}
+pallet-randrng = { version = "4.0.0-dev", default-features = false, path = "../randrng" }
+bellman = {version = "0.14.0", default-features = false, path = "../../bellman",features = ["pairing", "groth16"]}
+pairing = { version = "0.23.0", default-features = false}
+ff = { version = "0.13", features = ["bits"] }
+bls12_381 = "0.8.0"
+rand_core = { version = "0.6.4", default-features = false }
+log = "0.4.19"
+
+
+pallet-insecure-randomness-collective-flip = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", optional = true,branch = "polkadot-v0.9.42"  }
+
+
+
+[dev-dependencies]
+sp-core = { version = "7.0.0", git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.42" }
+sp-io = { version = "7.0.0", git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.42" }
+sp-runtime = { version = "7.0.0", git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.42" }
+
+
+[features]
+default = ["std"]
+std = [
+	"codec/std",
+	"frame-benchmarking?/std",
+	"frame-support/std",
+	"frame-system/std",
+	"scale-info/std",
+]
+runtime-benchmarks = ["frame-benchmarking/runtime-benchmarks"]
+try-runtime = ["frame-support/try-runtime"]
