@@ -1,0 +1,71 @@
+[package]
+authors = [
+    "Sean Bowe <ewillbefull@gmail.com>",
+    "Jack Grigg <thestr4d@gmail.com>",
+]
+description = "zk-SNARK library"
+readme = "README.md"
+homepage = "https://github.com/zkcrypto/bellman"
+license = "MIT/Apache-2.0"
+name = "bellman"
+repository = "https://github.com/zkcrypto/bellman"
+version = "0.14.0"
+edition = "2021"
+rust-version = "1.70"
+
+[dependencies]
+bitvec = {version = "1.0.1", default-features = false, features = ["atomic", "alloc"]}
+blake2s_simd = {version = "1.0.1", default-features = false}
+ff = { version = "0.13", features = ["bits"] }
+group = {version = "0.13.0", default-features = false}
+pairing = {version = "0.23.0", default-features = false, optional = true}
+rand_core = {version = "0.6.4", default-features = false}
+byteorder = {version = "1.4.3", default-features = false}
+subtle = {version = "2.4.1", default-features = false}	
+sp-std = { version = "5.0.0", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.42" }
+frame-support = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.42" }
+
+# Multicore dependencies
+crossbeam-channel = { version = "0.5.1", optional = true }
+lazy_static = { version = "1.4.0", optional = true }
+log = { version = "0.4", optional = true }
+num_cpus = { version = "1", optional = true }
+rayon = { version = "1.5.1", optional = true }
+#change no_std invironment
+micromath = "2.0.0"
+heapless = "0.7.16"
+ufmt = "0.2.0"
+arrayvec = {version = "0.7.3", default-features = false}
+
+bls12_381 = "0.8.0"
+
+
+[dev-dependencies]
+bls12_381 = "0.8"
+criterion = "0.4"
+hex-literal = "0.3"
+rand = "0.8"
+rand_xorshift = "0.3"
+sha2 = "0.10"
+
+[features]
+groth16 = ["pairing"]
+multicore = ["crossbeam-channel", "lazy_static", "log", "num_cpus", "rayon", "rand_core/getrandom"]
+default = ["groth16", "multicore"]
+
+
+[[test]]
+name = "mimc"
+path = "tests/mimc.rs"
+required-features = ["groth16"]
+
+[[bench]]
+name = "batch"
+harness = false
+
+[[bench]]
+name = "slow"
+harness = false
+
+[badges]
+maintenance = { status = "actively-developed" }
