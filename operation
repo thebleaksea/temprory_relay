@@ -1,3 +1,0 @@
-RUST_LOG=info,substrate=trace RUST_LOG_STYLE=always RUST_LOG_TIME=local RUST_LOG_TARGET=substrate RUST_LOG_FORMAT="[%%Y-%%m-%%d %%H:%%M:%%S.%%3f] [%%L] [%%t] [%%T] [%%Z] [%%-5p] [%%-20c] [%%-25M] %m%n" ./target/release/node-template --dev &> log
-
-
