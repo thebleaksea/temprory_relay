@@ -12,6 +12,7 @@ This is a modified version of the Bellman library, using the sp-std and frame-su
 The original rand_core library for generating random numbers has been replaced by a custom pallet, randrng, to ensure compatibility with the no_std environment.
 ### Methods of realization
 
+```rust
 fn next_u32<T: Config>(&mut self) -> u32 {
     let nonce = Nonce::<T>::get();
     let (random_seed, _) = T::RandomnessSource::random(&nonce.to_le_bytes());
@@ -29,6 +30,7 @@ fn next_u64<T: Config>(&mut self) -> u64 {
     Nonce::<T>::put(nonce + 1);
     random_value
 }
+```
 
 ## zero proof of knowledge
 The zkproof pallet implements the three zero-knowledge proofs required for temporary relaying 'ptrade','transcation',and'store'
