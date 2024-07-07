@@ -1,0 +1,192 @@
+2024-01-10 17:08:26.243  INFO main sc_cli::runner: Substrate Node    
+2024-01-10 17:08:26.243  INFO main sc_cli::runner: ✌️  version 4.0.0-dev-87b1b4728e2    
+2024-01-10 17:08:26.243  INFO main sc_cli::runner: ❤️  by Substrate DevHub <https://github.com/substrate-developer-hub>, 2017-2024    
+2024-01-10 17:08:26.243  INFO main sc_cli::runner: 📋 Chain specification: Development    
+2024-01-10 17:08:26.243  INFO main sc_cli::runner: 🏷  Node name: ahead-thunder-2579    
+2024-01-10 17:08:26.243  INFO main sc_cli::runner: 👤 Role: AUTHORITY    
+2024-01-10 17:08:26.243  INFO main sc_cli::runner: 💾 Database: RocksDb at /tmp/substrateiL576o/chains/dev/db/full    
+2024-01-10 17:08:26.243  INFO main sc_cli::runner: ⛓  Native runtime: node-template-100 (node-template-1.tx1.au1)    
+2024-01-10 17:08:26.939  INFO main sc_service::client::client: 🔨 Initializing Genesis block/state (state: 0xf815…8865, header-hash: 0x7e3f…6d85)    
+2024-01-10 17:08:26.941  INFO main grandpa: 👴 Loading GRANDPA authority set from genesis on what appears to be first startup.    
+2024-01-10 17:08:27.506  WARN main sc_service::config: Using default protocol ID "sup" because none is configured in the chain specs    
+2024-01-10 17:08:27.507  INFO main sub-libp2p: 🏷  Local node identity is: 12D3KooWNhCzeAjR8XCpSzetgj5Nn8JhD1DVaYhCW5AcrzpdMBj5    
+2024-01-10 17:08:27.513  INFO main sc_sysinfo: 💻 Operating system: linux    
+2024-01-10 17:08:27.513  INFO main sc_sysinfo: 💻 CPU architecture: x86_64    
+2024-01-10 17:08:27.513  INFO main sc_sysinfo: 💻 Target environment: gnu    
+2024-01-10 17:08:27.513  INFO main sc_sysinfo: 💻 CPU: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz    
+2024-01-10 17:08:27.513  INFO main sc_sysinfo: 💻 CPU cores: 4    
+2024-01-10 17:08:27.513  INFO main sc_sysinfo: 💻 Memory: 7897MB    
+2024-01-10 17:08:27.513  INFO main sc_sysinfo: 💻 Kernel: 6.2.0-39-generic    
+2024-01-10 17:08:27.513  INFO main sc_sysinfo: 💻 Linux distribution: Ubuntu 22.04.3 LTS    
+2024-01-10 17:08:27.513  INFO main sc_sysinfo: 💻 Virtual machine: yes    
+2024-01-10 17:08:27.513  INFO main sc_service::builder: 📦 Highest known block at #0    
+2024-01-10 17:08:27.513  INFO main sc_rpc_server: Running JSON-RPC HTTP server: addr=127.0.0.1:9933, allowed origins=["*"]    
+2024-01-10 17:08:27.513  INFO                 main sc_rpc_server: Running JSON-RPC WS server: addr=127.0.0.1:9944, allowed origins=["*"]    
+2024-01-10 17:08:27.513  INFO tokio-runtime-worker substrate_prometheus_endpoint: 〽️ Prometheus exporter started at 127.0.0.1:9615    
+2024-01-10 17:08:29.790  INFO tokio-runtime-worker jsonrpsee_server::server: Accepting new connection 1/100
+2024-01-10 17:08:30.000  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🙌 Starting consensus session on top of parent 0x7e3f5c1e86d7d85ffda83273968daa04e79d2e903bde04f09886577125bf6d85    
+2024-01-10 17:08:30.001  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🎁 Prepared block for proposing at 1 (0 ms) [hash: 0xc664ca7f64c790362edd0efaa15231bf96b78f5929776a75f7b9d3880e07d6a6; parent_hash: 0x7e3f…6d85; extrinsics (1): [0xfc75…8024]]    
+2024-01-10 17:08:30.003  INFO tokio-runtime-worker aura: 🔖 Pre-sealed block for proposal at 1. Hash now 0x4c695abfc9e2d11f3de1218310f51310df8539796664f99e931ec23a52476158, previously 0xc664ca7f64c790362edd0efaa15231bf96b78f5929776a75f7b9d3880e07d6a6.    
+2024-01-10 17:08:30.003  INFO tokio-runtime-worker substrate: ✨ Imported #1 (0x4c69…6158)    
+2024-01-10 17:08:32.514  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #1 (0x4c69…6158), finalized #0 (0x7e3f…6d85), ⬇ 0 ⬆ 0    
+2024-01-10 17:08:36.001  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🙌 Starting consensus session on top of parent 0x4c695abfc9e2d11f3de1218310f51310df8539796664f99e931ec23a52476158    
+2024-01-10 17:08:36.002  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🎁 Prepared block for proposing at 2 (0 ms) [hash: 0x45cd1e80c52c94e9c649b972f92e63dab798f90f45ad1c4d011c0d9d03e5be15; parent_hash: 0x4c69…6158; extrinsics (1): [0x86cc…d2bb]]    
+2024-01-10 17:08:36.003  INFO tokio-runtime-worker aura: 🔖 Pre-sealed block for proposal at 2. Hash now 0xc4f3c1213379deb54f74d069e8857b6e1f3e615f9d8e3ddbfeb1e472585504da, previously 0x45cd1e80c52c94e9c649b972f92e63dab798f90f45ad1c4d011c0d9d03e5be15.    
+2024-01-10 17:08:36.004  INFO tokio-runtime-worker substrate: ✨ Imported #2 (0xc4f3…04da)    
+2024-01-10 17:08:37.514  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #2 (0xc4f3…04da), finalized #0 (0x7e3f…6d85), ⬇ 0 ⬆ 0    
+2024-01-10 17:08:42.001  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🙌 Starting consensus session on top of parent 0xc4f3c1213379deb54f74d069e8857b6e1f3e615f9d8e3ddbfeb1e472585504da    
+2024-01-10 17:08:42.005  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🎁 Prepared block for proposing at 3 (1 ms) [hash: 0x9564b5e4d4fe7904995f05aed3a6eb58fe14c78b6eb32e9990bb16e0c5c7c6df; parent_hash: 0xc4f3…04da; extrinsics (1): [0x264f…4493]]    
+2024-01-10 17:08:42.012  INFO tokio-runtime-worker aura: 🔖 Pre-sealed block for proposal at 3. Hash now 0xe638ed09e8c820f7184fa6e530c25bbeec0ffd8319908bbc8f50dfa93d51655a, previously 0x9564b5e4d4fe7904995f05aed3a6eb58fe14c78b6eb32e9990bb16e0c5c7c6df.    
+2024-01-10 17:08:42.013  INFO tokio-runtime-worker substrate: ✨ Imported #3 (0xe638…655a)    
+2024-01-10 17:08:42.515  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #3 (0xe638…655a), finalized #0 (0x7e3f…6d85), ⬇ 0 ⬆ 0    
+2024-01-10 17:08:47.516  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #3 (0xe638…655a), finalized #1 (0x4c69…6158), ⬇ 0 ⬆ 0    
+2024-01-10 17:08:48.000  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🙌 Starting consensus session on top of parent 0xe638ed09e8c820f7184fa6e530c25bbeec0ffd8319908bbc8f50dfa93d51655a    
+2024-01-10 17:08:48.002  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🎁 Prepared block for proposing at 4 (0 ms) [hash: 0x171a54407ea97da976adbed8fdc1e4a6c95bb7fb0ef68c34605882e665372ee8; parent_hash: 0xe638…655a; extrinsics (1): [0x246d…f0e2]]    
+2024-01-10 17:08:48.006  INFO tokio-runtime-worker aura: 🔖 Pre-sealed block for proposal at 4. Hash now 0x2fb57d0c9f5f71f0cad7a52cac88b5fe051f6c2bdcda5254210db95f298449e8, previously 0x171a54407ea97da976adbed8fdc1e4a6c95bb7fb0ef68c34605882e665372ee8.    
+2024-01-10 17:08:48.007  INFO tokio-runtime-worker substrate: ✨ Imported #4 (0x2fb5…49e8)    
+2024-01-10 17:08:52.517  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #4 (0x2fb5…49e8), finalized #2 (0xc4f3…04da), ⬇ 0 ⬆ 0    
+2024-01-10 17:08:54.001  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🙌 Starting consensus session on top of parent 0x2fb57d0c9f5f71f0cad7a52cac88b5fe051f6c2bdcda5254210db95f298449e8    
+2024-01-10 17:08:54.001  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🎁 Prepared block for proposing at 5 (0 ms) [hash: 0x1637221240275b9efc2fb62f2784acfe72fea68e314d6b102f141469ea06fa3e; parent_hash: 0x2fb5…49e8; extrinsics (2): [0x0406…dee4, 0xce19…0f0a]]    
+2024-01-10 17:08:54.003  INFO tokio-runtime-worker aura: 🔖 Pre-sealed block for proposal at 5. Hash now 0xb8859da4c5d7750529e6dcef7c8118232cfae3c4784a5a56093ab4597c7e2f1d, previously 0x1637221240275b9efc2fb62f2784acfe72fea68e314d6b102f141469ea06fa3e.    
+2024-01-10 17:08:54.004  INFO tokio-runtime-worker substrate: ✨ Imported #5 (0xb885…2f1d)    
+2024-01-10 17:08:57.518  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #5 (0xb885…2f1d), finalized #3 (0xe638…655a), ⬇ 0 ⬆ 0    
+2024-01-10 17:09:00.001  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🙌 Starting consensus session on top of parent 0xb8859da4c5d7750529e6dcef7c8118232cfae3c4784a5a56093ab4597c7e2f1d    
+2024-01-10 17:09:00.001  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🎁 Prepared block for proposing at 6 (0 ms) [hash: 0x04680f2d75806511f90f108e307cd7f1fca93f738e54b29c3772f18ab7c6dfa8; parent_hash: 0xb885…2f1d; extrinsics (1): [0xdc3a…c20b]]    
+2024-01-10 17:09:00.003  INFO tokio-runtime-worker aura: 🔖 Pre-sealed block for proposal at 6. Hash now 0x0ea49f5e8b4fad24467df7c4960d80a50376a7e47f3002aac699b4852f652114, previously 0x04680f2d75806511f90f108e307cd7f1fca93f738e54b29c3772f18ab7c6dfa8.    
+2024-01-10 17:09:00.003  INFO tokio-runtime-worker substrate: ✨ Imported #6 (0x0ea4…2114)    
+2024-01-10 17:09:02.519  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #6 (0x0ea4…2114), finalized #4 (0x2fb5…49e8), ⬇ 0 ⬆ 0    
+2024-01-10 17:09:06.000  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🙌 Starting consensus session on top of parent 0x0ea49f5e8b4fad24467df7c4960d80a50376a7e47f3002aac699b4852f652114    
+2024-01-10 17:09:06.002  INFO tokio-runtime-worker pallet_zkproof::pallet: create_proof_start    
+2024-01-10 17:09:06.027  INFO tokio-runtime-worker pallet_zkproof::pallet: create_pretrade_param is success    
+2024-01-10 17:09:06.040  INFO tokio-runtime-worker pallet_zkproof::pallet: transcation_proof had been create    
+2024-01-10 17:09:06.043  INFO tokio-runtime-worker pallet_zkproof::pallet: proof is ok    
+2024-01-10 17:09:06.043  INFO tokio-runtime-worker pallet_zkproof::pallet: account money is update    
+2024-01-10 17:09:06.043  INFO tokio-runtime-worker pallet_zkproof::pallet: 1's transcation is init    
+2024-01-10 17:09:06.044  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🎁 Prepared block for proposing at 7 (42 ms) [hash: 0x46571cdcb380046d606542ca9b6ec34126dc86d2763cb5fa74dde9e35d446f57; parent_hash: 0x0ea4…2114; extrinsics (2): [0x9c6c…537c, 0x111c…0cbf]]    
+2024-01-10 17:09:06.046  INFO tokio-runtime-worker aura: 🔖 Pre-sealed block for proposal at 7. Hash now 0x29a36e7165d9e13329aed817c94aa2bd1d2ad84c2af6cc7bbcef0f8322321c29, previously 0x46571cdcb380046d606542ca9b6ec34126dc86d2763cb5fa74dde9e35d446f57.    
+2024-01-10 17:09:06.046  INFO tokio-runtime-worker substrate: ✨ Imported #7 (0x29a3…1c29)    
+2024-01-10 17:09:07.519  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #7 (0x29a3…1c29), finalized #4 (0x2fb5…49e8), ⬇ 0 ⬆ 0    
+2024-01-10 17:09:12.000  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🙌 Starting consensus session on top of parent 0x29a36e7165d9e13329aed817c94aa2bd1d2ad84c2af6cc7bbcef0f8322321c29    
+2024-01-10 17:09:12.001  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🎁 Prepared block for proposing at 8 (0 ms) [hash: 0xaae9671672d69dbcfce4551bed7f443c85979192949654ed78d7e81d5eafe21e; parent_hash: 0x29a3…1c29; extrinsics (1): [0xcf97…7fd4]]    
+2024-01-10 17:09:12.003  INFO tokio-runtime-worker aura: 🔖 Pre-sealed block for proposal at 8. Hash now 0x0fb45834573a2e8df0a5de9095db6f5b8f44cd3a8e83ecd8995f85b2c71a8bae, previously 0xaae9671672d69dbcfce4551bed7f443c85979192949654ed78d7e81d5eafe21e.    
+2024-01-10 17:09:12.003  INFO tokio-runtime-worker substrate: ✨ Imported #8 (0x0fb4…8bae)    
+2024-01-10 17:09:12.519  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #8 (0x0fb4…8bae), finalized #5 (0xb885…2f1d), ⬇ 0 ⬆ 0    
+2024-01-10 17:09:17.521  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #8 (0x0fb4…8bae), finalized #6 (0x0ea4…2114), ⬇ 0 ⬆ 0    
+2024-01-10 17:09:18.001  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🙌 Starting consensus session on top of parent 0x0fb45834573a2e8df0a5de9095db6f5b8f44cd3a8e83ecd8995f85b2c71a8bae    
+2024-01-10 17:09:18.002  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🎁 Prepared block for proposing at 9 (0 ms) [hash: 0x79d2040e0c727baa3ab51a50b0b62748f098ed2c4d0d677293aee8ba8525f2d8; parent_hash: 0x0fb4…8bae; extrinsics (2): [0x582f…eb31, 0x9125…2a93]]    
+2024-01-10 17:09:18.004  INFO tokio-runtime-worker aura: 🔖 Pre-sealed block for proposal at 9. Hash now 0x16d2cdd438046b75303e4fec7436a1bfe34c0e5404adec30c18a89c4e9e6c7f1, previously 0x79d2040e0c727baa3ab51a50b0b62748f098ed2c4d0d677293aee8ba8525f2d8.    
+2024-01-10 17:09:18.004  INFO tokio-runtime-worker substrate: ✨ Imported #9 (0x16d2…c7f1)    
+2024-01-10 17:09:22.521  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #9 (0x16d2…c7f1), finalized #7 (0x29a3…1c29), ⬇ 0 ⬆ 0    
+2024-01-10 17:09:24.000  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🙌 Starting consensus session on top of parent 0x16d2cdd438046b75303e4fec7436a1bfe34c0e5404adec30c18a89c4e9e6c7f1    
+2024-01-10 17:09:24.001  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🎁 Prepared block for proposing at 10 (0 ms) [hash: 0x9ef7599df69c29a4e8201b8acc4972bf4f98d972421e8dfbd52222ee4be3e3aa; parent_hash: 0x16d2…c7f1; extrinsics (1): [0x8df3…431e]]    
+2024-01-10 17:09:24.002  INFO tokio-runtime-worker aura: 🔖 Pre-sealed block for proposal at 10. Hash now 0x415e5b2149862e7307c8e4ef71476593e257b3448381cdcb952c8edb8c147417, previously 0x9ef7599df69c29a4e8201b8acc4972bf4f98d972421e8dfbd52222ee4be3e3aa.    
+2024-01-10 17:09:24.003  INFO tokio-runtime-worker substrate: ✨ Imported #10 (0x415e…7417)    
+2024-01-10 17:09:27.522  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #10 (0x415e…7417), finalized #8 (0x0fb4…8bae), ⬇ 0 ⬆ 0    
+2024-01-10 17:09:30.000  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🙌 Starting consensus session on top of parent 0x415e5b2149862e7307c8e4ef71476593e257b3448381cdcb952c8edb8c147417    
+2024-01-10 17:09:30.002  INFO tokio-runtime-worker pallet_zkproof::pallet: create_proof_start    
+2024-01-10 17:09:30.020  INFO tokio-runtime-worker pallet_zkproof::pallet: create_pretrade_param is success    
+2024-01-10 17:09:30.033  INFO tokio-runtime-worker pallet_zkproof::pallet: transcation_proof had been create    
+2024-01-10 17:09:30.037  INFO tokio-runtime-worker pallet_zkproof::pallet: proof is ok    
+2024-01-10 17:09:30.037  INFO tokio-runtime-worker pallet_zkproof::pallet: account money is update    
+2024-01-10 17:09:30.037  INFO tokio-runtime-worker pallet_zkproof::pallet: 2's transcation is init    
+2024-01-10 17:09:30.038  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🎁 Prepared block for proposing at 11 (35 ms) [hash: 0xba439d4b37ac996196768a97d9e0e82ac9f26af805b3489fbad90a97c513ec18; parent_hash: 0x415e…7417; extrinsics (2): [0x4a20…6d6a, 0x1e17…0443]]    
+2024-01-10 17:09:30.039  INFO tokio-runtime-worker aura: 🔖 Pre-sealed block for proposal at 11. Hash now 0xa51c23aad925a63d123ae2e4aaeae6b1cd818b42964e57a9bb90c7614cdad714, previously 0xba439d4b37ac996196768a97d9e0e82ac9f26af805b3489fbad90a97c513ec18.    
+2024-01-10 17:09:30.039  INFO tokio-runtime-worker substrate: ✨ Imported #11 (0xa51c…d714)    
+2024-01-10 17:09:32.523  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #11 (0xa51c…d714), finalized #9 (0x16d2…c7f1), ⬇ 0 ⬆ 0    
+2024-01-10 17:09:36.001  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🙌 Starting consensus session on top of parent 0xa51c23aad925a63d123ae2e4aaeae6b1cd818b42964e57a9bb90c7614cdad714    
+2024-01-10 17:09:36.003  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🎁 Prepared block for proposing at 12 (1 ms) [hash: 0xc34762e811961befd8a9ba1e169e24406db3d8bf42c47e164433f627c04bd44b; parent_hash: 0xa51c…d714; extrinsics (1): [0xf7bb…7d43]]    
+2024-01-10 17:09:36.005  INFO tokio-runtime-worker aura: 🔖 Pre-sealed block for proposal at 12. Hash now 0x74ce526ba4af4fd7fd2cb72b64d3f3c850e6e71f0347989148b744938058cfa1, previously 0xc34762e811961befd8a9ba1e169e24406db3d8bf42c47e164433f627c04bd44b.    
+2024-01-10 17:09:36.006  INFO tokio-runtime-worker substrate: ✨ Imported #12 (0x74ce…cfa1)    
+2024-01-10 17:09:37.524  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #12 (0x74ce…cfa1), finalized #10 (0x415e…7417), ⬇ 0 ⬆ 0    
+2024-01-10 17:09:42.000  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🙌 Starting consensus session on top of parent 0x74ce526ba4af4fd7fd2cb72b64d3f3c850e6e71f0347989148b744938058cfa1    
+2024-01-10 17:09:42.001  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🎁 Prepared block for proposing at 13 (0 ms) [hash: 0x2e7726d4104e59b7b0b7e8c3dee0c9693b21df0d20e3c71486a859654b37a28c; parent_hash: 0x74ce…cfa1; extrinsics (2): [0xb0b2…f5e5, 0x85dc…6b1b]]    
+2024-01-10 17:09:42.004  INFO tokio-runtime-worker aura: 🔖 Pre-sealed block for proposal at 13. Hash now 0x2055b62419dfeccfba63c6c37c5e5b08a26a5a1620ba68fdc7a9a79078bff48e, previously 0x2e7726d4104e59b7b0b7e8c3dee0c9693b21df0d20e3c71486a859654b37a28c.    
+2024-01-10 17:09:42.005  INFO tokio-runtime-worker substrate: ✨ Imported #13 (0x2055…f48e)    
+2024-01-10 17:09:42.525  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #13 (0x2055…f48e), finalized #10 (0x415e…7417), ⬇ 0 ⬆ 0    
+2024-01-10 17:09:47.525  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #13 (0x2055…f48e), finalized #11 (0xa51c…d714), ⬇ 0 ⬆ 0    
+2024-01-10 17:09:48.001  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🙌 Starting consensus session on top of parent 0x2055b62419dfeccfba63c6c37c5e5b08a26a5a1620ba68fdc7a9a79078bff48e    
+2024-01-10 17:09:48.003  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🎁 Prepared block for proposing at 14 (1 ms) [hash: 0xe067b0f4d2e721d118b2fcf782c7b7f9cf6f1f4486e3bb53f03e37fc7683ebf4; parent_hash: 0x2055…f48e; extrinsics (2): [0x4404…8323, 0x1b97…a849]]    
+2024-01-10 17:09:48.005  INFO tokio-runtime-worker aura: 🔖 Pre-sealed block for proposal at 14. Hash now 0x288ced89f88bbb96ae1934d100de38b2db579b03c323c753ee3db9ca7fe3e5c0, previously 0xe067b0f4d2e721d118b2fcf782c7b7f9cf6f1f4486e3bb53f03e37fc7683ebf4.    
+2024-01-10 17:09:48.006  INFO tokio-runtime-worker substrate: ✨ Imported #14 (0x288c…e5c0)    
+2024-01-10 17:09:52.526  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #14 (0x288c…e5c0), finalized #12 (0x74ce…cfa1), ⬇ 0 ⬆ 0    
+2024-01-10 17:09:54.001  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🙌 Starting consensus session on top of parent 0x288ced89f88bbb96ae1934d100de38b2db579b03c323c753ee3db9ca7fe3e5c0    
+2024-01-10 17:09:54.002  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🎁 Prepared block for proposing at 15 (0 ms) [hash: 0xff3e55b04124f386c7d7cd5d41eeb9be1a2142c391553b9bd186daa3552e2d20; parent_hash: 0x288c…e5c0; extrinsics (1): [0xdb00…302f]]    
+2024-01-10 17:09:54.003  INFO tokio-runtime-worker aura: 🔖 Pre-sealed block for proposal at 15. Hash now 0x66c5d7bcff7066d51eac3a297a8437204b618981b6624d9f1c5596e51332f03e, previously 0xff3e55b04124f386c7d7cd5d41eeb9be1a2142c391553b9bd186daa3552e2d20.    
+2024-01-10 17:09:54.004  INFO tokio-runtime-worker substrate: ✨ Imported #15 (0x66c5…f03e)    
+2024-01-10 17:09:57.526  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #15 (0x66c5…f03e), finalized #13 (0x2055…f48e), ⬇ 0 ⬆ 0    
+2024-01-10 17:10:00.000  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🙌 Starting consensus session on top of parent 0x66c5d7bcff7066d51eac3a297a8437204b618981b6624d9f1c5596e51332f03e    
+2024-01-10 17:10:00.001  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🎁 Prepared block for proposing at 16 (0 ms) [hash: 0x02448fcb20e0815e30f35a4aaca22d44bbc020ff1dc0f85c491dd87f0b33da3e; parent_hash: 0x66c5…f03e; extrinsics (1): [0xe565…96eb]]    
+2024-01-10 17:10:00.004  INFO tokio-runtime-worker aura: 🔖 Pre-sealed block for proposal at 16. Hash now 0x31a69b01cec5b3b80269564ad3078d47a5102b97942226ac6e0ac140150a0472, previously 0x02448fcb20e0815e30f35a4aaca22d44bbc020ff1dc0f85c491dd87f0b33da3e.    
+2024-01-10 17:10:00.005  INFO tokio-runtime-worker substrate: ✨ Imported #16 (0x31a6…0472)    
+2024-01-10 17:10:02.527  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #16 (0x31a6…0472), finalized #14 (0x288c…e5c0), ⬇ 0 ⬆ 0    
+2024-01-10 17:10:06.000  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🙌 Starting consensus session on top of parent 0x31a69b01cec5b3b80269564ad3078d47a5102b97942226ac6e0ac140150a0472    
+2024-01-10 17:10:06.001  INFO tokio-runtime-worker pallet_zkproof::pallet: create_proof_start    
+2024-01-10 17:10:06.013  INFO tokio-runtime-worker pallet_zkproof::pallet: transcation params is create success    
+2024-01-10 17:10:06.025  INFO tokio-runtime-worker pallet_zkproof::pallet: transcation_proof had been create    
+2024-01-10 17:10:06.025  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🎁 Prepared block for proposing at 17 (24 ms) [hash: 0x31bc43db828b289b1777e2a2158c0490182d49b7a36156b3cb273434a7b98ede; parent_hash: 0x31a6…0472; extrinsics (2): [0xe434…dfc0, 0x6fa6…0aef]]    
+2024-01-10 17:10:06.027  INFO tokio-runtime-worker aura: 🔖 Pre-sealed block for proposal at 17. Hash now 0x74feb76eda97521037f0c763ea1dba33839931c2642a205b03eb9f995982b622, previously 0x31bc43db828b289b1777e2a2158c0490182d49b7a36156b3cb273434a7b98ede.    
+2024-01-10 17:10:06.027  INFO tokio-runtime-worker substrate: ✨ Imported #17 (0x74fe…b622)    
+2024-01-10 17:10:07.527  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #17 (0x74fe…b622), finalized #14 (0x288c…e5c0), ⬇ 0 ⬆ 0    
+2024-01-10 17:10:12.001  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🙌 Starting consensus session on top of parent 0x74feb76eda97521037f0c763ea1dba33839931c2642a205b03eb9f995982b622    
+2024-01-10 17:10:12.003  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🎁 Prepared block for proposing at 18 (0 ms) [hash: 0x9ca55966c8f43ddeb87ce25bda158c8bc35678d175a7a8c193bdd4da671a8eff; parent_hash: 0x74fe…b622; extrinsics (1): [0xa4f6…39ff]]    
+2024-01-10 17:10:12.004  INFO tokio-runtime-worker aura: 🔖 Pre-sealed block for proposal at 18. Hash now 0xfaa52658933b71788ef40931927956c97acfc87012aea78c18e1ad5c1d4d2a22, previously 0x9ca55966c8f43ddeb87ce25bda158c8bc35678d175a7a8c193bdd4da671a8eff.    
+2024-01-10 17:10:12.005  INFO tokio-runtime-worker substrate: ✨ Imported #18 (0xfaa5…2a22)    
+2024-01-10 17:10:12.528  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #18 (0xfaa5…2a22), finalized #15 (0x66c5…f03e), ⬇ 0 ⬆ 0    
+2024-01-10 17:10:17.528  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #18 (0xfaa5…2a22), finalized #16 (0x31a6…0472), ⬇ 0 ⬆ 0    
+2024-01-10 17:10:18.000  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🙌 Starting consensus session on top of parent 0xfaa52658933b71788ef40931927956c97acfc87012aea78c18e1ad5c1d4d2a22    
+2024-01-10 17:10:18.001  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🎁 Prepared block for proposing at 19 (0 ms) [hash: 0x980d12cacfbe721ac76a9a86452dc311ba7a17c449549d5571f72f58e8aba799; parent_hash: 0xfaa5…2a22; extrinsics (1): [0xaa9b…fd22]]    
+2024-01-10 17:10:18.003  INFO tokio-runtime-worker aura: 🔖 Pre-sealed block for proposal at 19. Hash now 0x48f5de539ebe0feea2730a60374e62411deeca5a1b97204fcc1bc5b02bd8c0af, previously 0x980d12cacfbe721ac76a9a86452dc311ba7a17c449549d5571f72f58e8aba799.    
+2024-01-10 17:10:18.004  INFO tokio-runtime-worker substrate: ✨ Imported #19 (0x48f5…c0af)    
+2024-01-10 17:10:22.529  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #19 (0x48f5…c0af), finalized #17 (0x74fe…b622), ⬇ 0 ⬆ 0    
+2024-01-10 17:10:24.000  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🙌 Starting consensus session on top of parent 0x48f5de539ebe0feea2730a60374e62411deeca5a1b97204fcc1bc5b02bd8c0af    
+2024-01-10 17:10:24.001  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🎁 Prepared block for proposing at 20 (0 ms) [hash: 0xa6e8fa115d04f69d2c299606bd398f038863e0b788afb590af17e960d77eb493; parent_hash: 0x48f5…c0af; extrinsics (1): [0x06c1…d017]]    
+2024-01-10 17:10:24.003  INFO tokio-runtime-worker aura: 🔖 Pre-sealed block for proposal at 20. Hash now 0xad0c206147aad42b2a7aba31c14ec2f062ff99bcc9ef881f87187cf6cf47a4a2, previously 0xa6e8fa115d04f69d2c299606bd398f038863e0b788afb590af17e960d77eb493.    
+2024-01-10 17:10:24.003  INFO tokio-runtime-worker substrate: ✨ Imported #20 (0xad0c…a4a2)    
+2024-01-10 17:10:27.529  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #20 (0xad0c…a4a2), finalized #18 (0xfaa5…2a22), ⬇ 0 ⬆ 0    
+2024-01-10 17:10:30.001  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🙌 Starting consensus session on top of parent 0xad0c206147aad42b2a7aba31c14ec2f062ff99bcc9ef881f87187cf6cf47a4a2    
+2024-01-10 17:10:30.001  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🎁 Prepared block for proposing at 21 (0 ms) [hash: 0x0ee7a84461a4c80fed944f0b8610dac3f6fbd2b17b3de2fdc9c6e089a2128056; parent_hash: 0xad0c…a4a2; extrinsics (1): [0x14b8…89a2]]    
+2024-01-10 17:10:30.003  INFO tokio-runtime-worker aura: 🔖 Pre-sealed block for proposal at 21. Hash now 0x2fd9068df60e06e1a5b3af34e1fa801608bafbf0045f3ea650b286642a8d72ba, previously 0x0ee7a84461a4c80fed944f0b8610dac3f6fbd2b17b3de2fdc9c6e089a2128056.    
+2024-01-10 17:10:30.003  INFO tokio-runtime-worker substrate: ✨ Imported #21 (0x2fd9…72ba)    
+2024-01-10 17:10:32.530  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #21 (0x2fd9…72ba), finalized #19 (0x48f5…c0af), ⬇ 0 ⬆ 0    
+2024-01-10 17:10:36.000  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🙌 Starting consensus session on top of parent 0x2fd9068df60e06e1a5b3af34e1fa801608bafbf0045f3ea650b286642a8d72ba    
+2024-01-10 17:10:36.001  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🎁 Prepared block for proposing at 22 (0 ms) [hash: 0x6351c560a3f8d8f8787168e7644e8d51b6bc0e3288b0a1f2614616539414535f; parent_hash: 0x2fd9…72ba; extrinsics (1): [0xd131…a441]]    
+2024-01-10 17:10:36.004  INFO tokio-runtime-worker aura: 🔖 Pre-sealed block for proposal at 22. Hash now 0xebe7697d3167fdbb1c4e5b4a9cfa452ea89eb6d2c32748c38b7db6fe3e8f91f5, previously 0x6351c560a3f8d8f8787168e7644e8d51b6bc0e3288b0a1f2614616539414535f.    
+2024-01-10 17:10:36.005  INFO tokio-runtime-worker substrate: ✨ Imported #22 (0xebe7…91f5)    
+2024-01-10 17:10:37.530  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #22 (0xebe7…91f5), finalized #20 (0xad0c…a4a2), ⬇ 0 ⬆ 0    
+2024-01-10 17:10:42.000  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🙌 Starting consensus session on top of parent 0xebe7697d3167fdbb1c4e5b4a9cfa452ea89eb6d2c32748c38b7db6fe3e8f91f5    
+2024-01-10 17:10:42.001  INFO tokio-runtime-worker pallet_zkproof::pallet: create_proof_start    
+2024-01-10 17:10:42.013  INFO tokio-runtime-worker pallet_zkproof::pallet: store params is success generate    
+2024-01-10 17:10:42.022  INFO tokio-runtime-worker pallet_zkproof::pallet: store_proof had been create    
+2024-01-10 17:10:42.023  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🎁 Prepared block for proposing at 23 (22 ms) [hash: 0x37bca58887ce4e6f91573d294213d4d2419c610174f77ac79057cb1df1b5c999; parent_hash: 0xebe7…91f5; extrinsics (2): [0x3199…57e4, 0x8245…6140]]    
+2024-01-10 17:10:42.025  INFO tokio-runtime-worker aura: 🔖 Pre-sealed block for proposal at 23. Hash now 0x8a99472d91cbe9a05a91fd39722f83bcce61352cbdf1ccab3fab8df36c09a67f, previously 0x37bca58887ce4e6f91573d294213d4d2419c610174f77ac79057cb1df1b5c999.    
+2024-01-10 17:10:42.025  INFO tokio-runtime-worker substrate: ✨ Imported #23 (0x8a99…a67f)    
+2024-01-10 17:10:42.531  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #23 (0x8a99…a67f), finalized #20 (0xad0c…a4a2), ⬇ 0 ⬆ 0    
+2024-01-10 17:10:47.531  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #23 (0x8a99…a67f), finalized #21 (0x2fd9…72ba), ⬇ 0 ⬆ 0    
+2024-01-10 17:10:48.001  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🙌 Starting consensus session on top of parent 0x8a99472d91cbe9a05a91fd39722f83bcce61352cbdf1ccab3fab8df36c09a67f    
+2024-01-10 17:10:48.001  INFO tokio-runtime-worker pallet_zkproof::pallet: create_proof_start    
+2024-01-10 17:10:48.014  INFO tokio-runtime-worker pallet_zkproof::pallet: store params is success generate    
+2024-01-10 17:10:48.032  INFO tokio-runtime-worker pallet_zkproof::pallet: store_proof had been create    
+2024-01-10 17:10:48.033  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🎁 Prepared block for proposing at 24 (31 ms) [hash: 0xc01e989838798d601aae785228258588878d318b46190909bc7f2fed965d7636; parent_hash: 0x8a99…a67f; extrinsics (2): [0xd6c4…867f, 0xb2e6…aa07]]    
+2024-01-10 17:10:48.035  INFO tokio-runtime-worker aura: 🔖 Pre-sealed block for proposal at 24. Hash now 0xc741343989244c3bd1f39223154aba68dbee9d0e92908263aa92d93930a07ddb, previously 0xc01e989838798d601aae785228258588878d318b46190909bc7f2fed965d7636.    
+2024-01-10 17:10:48.036  INFO tokio-runtime-worker substrate: ✨ Imported #24 (0xc741…7ddb)    
+2024-01-10 17:10:52.532  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #24 (0xc741…7ddb), finalized #22 (0xebe7…91f5), ⬇ 0 ⬆ 0    
+2024-01-10 17:10:54.001  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🙌 Starting consensus session on top of parent 0xc741343989244c3bd1f39223154aba68dbee9d0e92908263aa92d93930a07ddb    
+2024-01-10 17:10:54.002  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🎁 Prepared block for proposing at 25 (0 ms) [hash: 0x158fcdaae006b1c0c021c9c98223533e5df5ffa6da16ebcf8105a1d14a0ec1e2; parent_hash: 0xc741…7ddb; extrinsics (1): [0x9048…591d]]    
+2024-01-10 17:10:54.003  INFO tokio-runtime-worker aura: 🔖 Pre-sealed block for proposal at 25. Hash now 0x1f4f6b789a4d7f1858dd71fcf55e4e16073a0c225b109a266fa7c897b6a8bc5b, previously 0x158fcdaae006b1c0c021c9c98223533e5df5ffa6da16ebcf8105a1d14a0ec1e2.    
+2024-01-10 17:10:54.004  INFO tokio-runtime-worker substrate: ✨ Imported #25 (0x1f4f…bc5b)    
+2024-01-10 17:10:57.533  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #25 (0x1f4f…bc5b), finalized #23 (0x8a99…a67f), ⬇ 0 ⬆ 0    
+2024-01-10 17:11:00.000  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🙌 Starting consensus session on top of parent 0x1f4f6b789a4d7f1858dd71fcf55e4e16073a0c225b109a266fa7c897b6a8bc5b    
+2024-01-10 17:11:00.001  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🎁 Prepared block for proposing at 26 (0 ms) [hash: 0x257f8a3eed23ce36d060f50a1cdbbc124c9782de3a2e6a3a3d86cda4b35088d6; parent_hash: 0x1f4f…bc5b; extrinsics (1): [0x6610…3b1f]]    
+2024-01-10 17:11:00.002  INFO tokio-runtime-worker aura: 🔖 Pre-sealed block for proposal at 26. Hash now 0x3457753af29f715bbff1930f532dc412e87e021ec94876b90aaff2e1cdab04b0, previously 0x257f8a3eed23ce36d060f50a1cdbbc124c9782de3a2e6a3a3d86cda4b35088d6.    
+2024-01-10 17:11:00.003  INFO tokio-runtime-worker substrate: ✨ Imported #26 (0x3457…04b0)    
+2024-01-10 17:11:02.533  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #26 (0x3457…04b0), finalized #24 (0xc741…7ddb), ⬇ 0 ⬆ 0    
+2024-01-10 17:11:06.000  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🙌 Starting consensus session on top of parent 0x3457753af29f715bbff1930f532dc412e87e021ec94876b90aaff2e1cdab04b0    
+2024-01-10 17:11:06.001  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🎁 Prepared block for proposing at 27 (0 ms) [hash: 0xcb3e73d527563411aedd1bfa800ea94f3669529b5a449b1e86aa47f93d7a2953; parent_hash: 0x3457…04b0; extrinsics (1): [0x5b51…5461]]    
+2024-01-10 17:11:06.003  INFO tokio-runtime-worker aura: 🔖 Pre-sealed block for proposal at 27. Hash now 0x3d00dcc867a49e1c1e106eea4e4afa4887fffd64d186082d119cc67e322bfa2a, previously 0xcb3e73d527563411aedd1bfa800ea94f3669529b5a449b1e86aa47f93d7a2953.    
+2024-01-10 17:11:06.003  INFO tokio-runtime-worker substrate: ✨ Imported #27 (0x3d00…fa2a)    
+2024-01-10 17:11:07.534  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #27 (0x3d00…fa2a), finalized #24 (0xc741…7ddb), ⬇ 0 ⬆ 0    
+2024-01-10 17:11:12.001  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🙌 Starting consensus session on top of parent 0x3d00dcc867a49e1c1e106eea4e4afa4887fffd64d186082d119cc67e322bfa2a    
+2024-01-10 17:11:12.005  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🎁 Prepared block for proposing at 28 (2 ms) [hash: 0x12dda4f5d03e7ba7b740876cb20e6808e442d3bbcb4f3fa8d370a4030e0d1312; parent_hash: 0x3d00…fa2a; extrinsics (1): [0xc8d2…fe45]]    
+2024-01-10 17:11:12.009  INFO tokio-runtime-worker aura: 🔖 Pre-sealed block for proposal at 28. Hash now 0x6cf1d1c6c4a669e51bf64e1626875168f80455dc5d0bffe638ce6517dd5911a4, previously 0x12dda4f5d03e7ba7b740876cb20e6808e442d3bbcb4f3fa8d370a4030e0d1312.    
+2024-01-10 17:11:12.010  INFO tokio-runtime-worker substrate: ✨ Imported #28 (0x6cf1…11a4)    
+2024-01-10 17:11:12.534  INFO tokio-runtime-worker substrate: 💤 Idle (0 peers), best: #28 (0x6cf1…11a4), finalized #25 (0x1f4f…bc5b), ⬇ 0 ⬆ 0    
