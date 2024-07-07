@@ -1,5 +1,5 @@
 # temprory relay
-Cross-chaining based on zero-knowledge proofs
+On-demand activated cross-chain relaying based on zero-knowledge proofs
 
 ## Modified bellman
 This is a modified version of the Bellman library, using the sp-std and frame-support libraries provided by Substrate to make it compatible with the no_std environment used by Substrate.
